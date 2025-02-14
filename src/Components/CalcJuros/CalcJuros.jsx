@@ -161,7 +161,8 @@ export default function CalcJuros() {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          height: '85vh',
+          minHeight: '85vh',
+          py: '10px',
         }}
       >
         <Box
@@ -300,7 +301,7 @@ export default function CalcJuros() {
                 showMark: false,
               },
             ]}
-            height={600}
+            height={580}
             sx={{
               '& .MuiAreaElement-series-juros': {
                 fill: 'url("#juros")',
